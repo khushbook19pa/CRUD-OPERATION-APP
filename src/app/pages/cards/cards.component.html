@@ -1,0 +1,20 @@
+<div *ngFor="let userData of usersData; let i = index">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>{{ userData.name }}</mat-card-title>
+      <mat-card-title>{{ userData.phone }}</mat-card-title>
+      <mat-card-title>{{ userData.email }}</mat-card-title>
+      <mat-card-subtitle>{{ userData.phone }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-actions>
+      <button style="
+      background-color: lightsalmon;
+      padding: 4px; margin-right: 30px;
+  " mat-button (click)="deleteData(i)">Delete</button>
+      <button style="
+      background-color: lightsalmon;
+      padding: 3px;
+  " mat-button (click)="editData(i)">Edit</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
