@@ -1,7 +1,7 @@
 # Khusbhboo
 
 
-# Assignment Of Roadcast Company  ->
+# Assignment Of Roadcast Company Using Angular Framework  -
 Make An Angular application to perform CRUD operations, with an emphasis on component reusability. Specifically, the application should incorporate a single component for both the addition and editing of data, and should rely solely on local storage. The component should include fields for name, phone number, and email address, each with appropriate validation measures. Upon deletion of data, an alert should be displayed. Additionally, the application should feature a table with sorting and pagination capabilities.
 
 # FIRST PAGE ( - Here we can Add all Details and Click on Add Data then Data will Added in the App)
